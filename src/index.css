@@ -199,6 +199,17 @@ img {
   margin-bottom: 2rem;
 
 }
+.top_section h2::after{
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 4px;
+    background: var(--rose-gold);
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+    border-radius: 50px;
+}
 
 .top_section h5 {
   text-align: center;
@@ -230,5 +241,5 @@ img {
   .top_section h2 {
     margin-bottom: 2rem;
   }
-
+  
 }
