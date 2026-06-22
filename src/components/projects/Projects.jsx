@@ -1,4 +1,4 @@
-import React, { useEffect, useRef , useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import './projects.css'
 import Bekary from '../../assets/img_projects/Bekary.png'
 import BookMark from '../../assets/img_projects/Book-Mark.png'
@@ -115,6 +115,7 @@ const Projects = () => {
   const cardRefs = useRef([]);
   const [activeIndex, setActiveIndex] = useState(0);
   const [expandedIndex, setExpandedIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState(null);
   const scrollTo = (index) => {
     const container = containerRef.current;
     const card = cardRefs.current[index];
@@ -195,20 +196,20 @@ const Projects = () => {
             key={item.id}
             ref={(el) => (cardRefs.current[i] = el)}
             className={`portfolio_item ${activeIndex === i ? "active" : ""
-              }`}
+              } ${openIndex === i ? "show_btns" : ""}`} onClick={() => setOpenIndex(openIndex === i ? null : i)}
           >
             <h3>{item.title}</h3>
 
             <div className="portfolio_item_image">
               <img src={item.image} alt={item.title} />
-            <div className="portfolio_item_btns">
-              <a href={item.gitHub} target="_blank" rel="noreferrer" className="btn">
-                GitHub
-              </a>
-              <a href={item.livedDemo} target="_blank" rel="noreferrer" className="btn btn-primary">
-                Live Demo
-              </a>
-            </div>
+              <div className="portfolio_item_btns">
+                <a href={item.gitHub} target="_blank" rel="noreferrer" className="btn">
+                  GitHub
+                </a>
+                <a href={item.livedDemo} target="_blank" rel="noreferrer" className="btn btn-primary">
+                  Live Demo
+                </a>
+              </div>
             </div>
 
             <p
@@ -239,7 +240,7 @@ const Projects = () => {
           />
         ))}
       </div>
-    </section>
+    </section >
   );
 };
 
