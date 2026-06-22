@@ -13,7 +13,7 @@ const Home = () => {
         <h4 className='text-light'>Frontend Developer</h4>
         <div className="btns">
           <a href={Cv}  className='btn' download> Download CV</a>
-          <a href="#" className='btn btn-primary'> Lets talk</a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hebatm29@gmail.com&su=Subject&body=Your%20Email%20Content" target='_blank' className='btn btn-primary'> Lets talk</a>
         </div>
         <div className="me">
           <img src={Me} alt="" />
