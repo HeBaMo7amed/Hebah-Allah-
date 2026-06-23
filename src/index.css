@@ -93,7 +93,9 @@ body::after {
   filter: blur(100px);
   z-index: -1;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 .blob {
   position: fixed;
   bottom: -150px;
