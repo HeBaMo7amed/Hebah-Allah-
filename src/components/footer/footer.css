@@ -45,7 +45,8 @@ footer::after{
     font-size: 2.2rem;
     font-weight: 700;
     color: var(--section-title);
-    margin-bottom: .3rem;
+    margin-bottom: 2rem;
+
 }
 .footer_logo:hover{
     color : var(--sec-title)
@@ -60,7 +61,7 @@ footer::after{
 
 .footer_desc{
     max-width: 500px;
-    margin: 0 auto 1.5rem;
+    margin: 0 auto 2rem;
     color: var(--sub-title);
     font-size: .95rem;
     line-height: 1.6;
@@ -110,6 +111,7 @@ footer::after{
     justify-content: center;
     gap: .8rem;
     margin-bottom: 1.5rem;
+    margin-top: .8rem;
 }
 
 .footer_socials a{
@@ -144,7 +146,7 @@ footer::after{
     padding-top: 1rem;
     border-top: 1px solid rgba(255,255,255,.1);
 
-    color: var( --bg-header);
+    color: var( --accent-dark);
     font-size: .8rem;
 }
 .footer_copyright a{
