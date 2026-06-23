@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className='about' id='about'>
       <div className="top_section">
-        <h2>About Hebah</h2>
+        <h2>About Heba</h2>
       </div>
       <div className="container about_container">
         <div className="about_me">
@@ -15,7 +15,7 @@ const About = () => {
         </div>
         <div className="about_content">
           <p>Hello! I'm Heba Allah Mohamed, a passionate web developer. I specialize in creating responsive and user-friendly websites using modern technologies.</p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">Contact Me</a>
         </div>
       </div>
     </section>
