@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaLinkedin ,FaGithub ,FaDribbble  } from "react-icons/fa";
+import { FaLinkedin ,FaGithub } from "react-icons/fa";
 const HomeSocials = () => {
   return (
     <div className='home_socials'>
