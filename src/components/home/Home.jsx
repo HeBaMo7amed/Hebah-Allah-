@@ -9,7 +9,7 @@ const Home = () => {
     <div className='home' id='home'>
       <div className="container home_container">
         <h4>Hello I'm</h4>
-        <h1>Hebah Allah</h1>
+        <h1>Heba Allah</h1>
         <h4 className='text-light'>Frontend Developer</h4>
         <div className="btns">
           <a href={Cv}  className='btn' download> Download CV</a>
