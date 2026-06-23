@@ -6,7 +6,7 @@ import { MdOutlineEmail } from 'react-icons/md'
 const Footer = () => {
     return(
     <footer>
-        <a href="#"className='footer_logo'>Heba Allah</a>
+        <a href="#home"className='footer_logo'>Heba Allah</a>
 
         {/* <ul className='permalinks'>
             <li> <a href="#home">Home</a> </li>
