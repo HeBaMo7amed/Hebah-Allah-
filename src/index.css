@@ -43,8 +43,10 @@
   --transition: all 0.4s ease;
   --rose-gold: #D4A373;
   --highlight: #E8B4A8;
-  --section-title: #7A4E45;
-  --sec-title: #C08A7A;
+  /* --section-title: #7A4E45; */
+  --section-title: #6D443C;
+  /* --sec-title: #C08A7A */
+  --sec-title: #A86F60;
   --glasss:rgba(255, 255, 255, 0.05);
   --shadow:  rgba(255, 255, 255, .25);
   
@@ -87,7 +89,6 @@ body::after {
   left: -100px;
   width: 500px;
   height: 500px;
-
   background: radial-gradient(circle, var(--accent) 0%, transparent 75%);
   opacity: 0.15;
   filter: blur(100px);
