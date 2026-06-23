@@ -1,0 +1,143 @@
+.services{
+    position: relative;
+}
+
+.container_services{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.5rem;
+    margin-top: 4rem;
+}
+
+.container_services .card{
+    position: relative;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    min-height: 280px;
+
+    background: rgba(255,255,255,.08);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+    border: 1px solid var(--rose-gold);
+    border-radius: 25px;
+
+    overflow: hidden;
+    cursor: pointer;
+
+    transition: .4s ease;
+}
+
+.container_services .card::before{
+    content: '';
+    position: absolute;
+
+    width: 150px;
+    height: 150px;
+
+    top: -70px;
+    right: -70px;
+
+    border-radius: 50%;
+
+    background: var(--rose-gold);
+
+    opacity: .12;
+
+    transition: .5s;
+}
+
+.container_services .card:hover{
+    transform: translateY(-12px);
+    border-color: var(--rose-gold);
+
+    box-shadow:
+    0 15px 35px rgba(212,163,115,.18);
+}
+
+.container_services .card:hover::before{
+    transform: scale(1.4);
+}
+
+.iconns{
+    font-size: 2.8rem;
+    color: var(--accent-dark);
+
+    margin-bottom: 1.5rem;
+
+    transition: .4s;
+}
+
+.card:hover .iconns{
+    transform: rotate(-10deg) scale(1.1);
+}
+
+.card h3{
+    font-size: 1.2rem;
+    color: var(--section-title);
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.card p{
+    font-size: .95rem;
+    line-height: 1.8;
+    font-weight: 500;
+    color: var(--title);
+}
+
+/* Number Effect */
+
+.card:nth-child(1)::after{
+    content: "01";
+}
+.card:nth-child(2)::after{
+    content: "02";
+}
+.card:nth-child(3)::after{
+    content: "03";
+}
+.card:nth-child(4)::after{
+    content: "04";
+}
+
+.card::after{
+    position: absolute;
+    bottom: -15px;
+    right: 10px;
+
+    font-size: 5rem;
+    font-weight: 700;
+
+    color: rgba(212,163,115,.08);
+
+    pointer-events: none;
+}
+
+/* Tablet */
+
+@media screen and (max-width:1024px){
+
+    .container_services{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width:600px){
+
+    .container_services{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .container_services .card{
+        min-height: auto;
+        padding: 1.5rem;
+    }
+
+    .iconns{
+        font-size: 2.3rem;
+    }
+}
