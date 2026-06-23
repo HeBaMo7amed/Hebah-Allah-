@@ -77,7 +77,7 @@ const Contact = () => {
           <input type="text" placeholder='Full Name' name='name' />
           <input type="email" placeholder='Your Email' name='email' />
           <textarea name="message" id="" placeholder='Enter Your Message'></textarea>
-          <button type='submit' className='btn btn-primary' disabled={loading}>
+          <button type='submit' className='btn btn-primaryy' disabled={loading}>
             {loading ? "Sending..." : "Send Message"}
           </button>
           {status && <p className="status_msg">{status}</p>}
