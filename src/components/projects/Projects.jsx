@@ -185,7 +185,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section className="projects">
+    <section className="projects" id='projects'>
       <div className="top_section">
         <h2>projects</h2>
       </div>
