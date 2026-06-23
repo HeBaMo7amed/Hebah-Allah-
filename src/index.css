@@ -14,32 +14,20 @@
 
   --primary: #FFFFFF;
   --secondary: #2F2424;
-
-
   --bg-main: #FFF9F7;
   --bg-section: #FAF7F5;
   --bg-header: #E6D4C9;
-
-
   --accent: #D9A299;
   --accent-dark: #C5897C;
   --accent-light: #F7E4D8;
-
-
   --title: #3B2F2F;
   --sub-title: #7A6A6A;
   --text-light: #9A8B8B;
-
-
   --border: rgba(59, 47, 47, 0.15);
-
-
   --hover: #F3ECE8;
   --button-hover: #B97A6E;
-
   --glass: rgba(255, 255, 255, 0.6);
   --shadow: 0 8px 30px rgba(59, 47, 47, 0.08);
-
   --transition: all 0.4s ease;
   --rose-gold: #D4A373;
   --highlight: #E8B4A8;
@@ -60,7 +48,7 @@
   background-image: url(assets/bg-texture.png);
 } */
 body {
-  font-family: 'Roboto.';
+  font-family: 'Roboto';
   font-style: italic;
   color: var(--sub-title);
   line-height: 1.7;
