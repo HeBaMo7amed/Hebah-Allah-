@@ -80,7 +80,7 @@ const skillsData = [
 
 const Skills = () => {
   return (
-    <section className='skills'>
+    <section className='skills' id='skills'>
       <div className="top_section">
         <h2>My Skills</h2>
       </div>
