@@ -42,7 +42,7 @@ const portfolioData = [
     id: 4,
     image: Sadaqah,
     title: 'Sadaqah Jariyah',
-    disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam rem ab velit ipsam iste aliquid? Eligendi totam nulla expedita.',
+    disc: 'An Islamic web application built with vanilla frontend technologies that integrates a free public API to dynamically fetch Quranic verses and daily Azkar. The core highlight of the project is a custom-built slider component designed to paginate Surat Al-Mulk, effectively replicating the traditional, seamless page-by-page reading experience of a physical Holy Quran mushaf.',
     gitHub: 'https://github.com/HeBaMo7amed/Sadaqah-Jariyah',
     livedDemo: 'https://sadaqah-jariyah-seven.vercel.app'
   },
