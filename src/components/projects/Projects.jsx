@@ -34,7 +34,7 @@ const portfolioData = [
     id: 3,
     image: portfolioo,
     title: 'portfolio',
-    disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam rem ab velit ipsam iste aliquid? Eligendi totam nulla expedita.',
+    disc: 'This classic personal portfolio was developed to establish a professional digital presence and showcase progression as a frontend developer. Built utilizing fundamental web technologies including HTML, CSS, and vanilla JavaScript, the application features a structured project showcase and a dedicated skills section. The layout integrates Bootstrap to guarantee a fluid, mobile-responsive experience across all devices, reflecting a solid engineering foundation and a meticulous approach to crafting clean, accessible, and user-centric web interfaces.',
     gitHub: 'https://github.com/HeBaMo7amed/portfolioo',
     livedDemo: 'https://portfolioo-pink-five.vercel.app'
   },
