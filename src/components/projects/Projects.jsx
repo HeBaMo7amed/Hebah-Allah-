@@ -74,7 +74,7 @@ const portfolioData = [
     id: 8,
     image: Bekary,
     title: 'Bakery',
-    disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam rem ab velit ipsam iste aliquid? Eligendi totam nulla expedita.',
+    disc: 'A fully responsive and visually engaging website designed for a bakery business. Built with semantic HTML5 and modern CSS3, the project leverages Bootstrap to ensure a fluid grid system and optimal cross-device compatibility. Custom media queries were implemented to refine the layout for various screen sizes, delivering a seamless and accessible user experience. This project demonstrates a solid command of core front-end technologies and the ability to build clean, maintainable, and user-centric web interfaces.',
     gitHub: 'https://github.com/HeBaMo7amed/Bakery',
     livedDemo: 'https://hebamo7amed.github.io/Bakery/'
   },
