@@ -90,7 +90,7 @@ const portfolioData = [
     id: 10,
     image: Crud,
     title: 'CRUD',
-    disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam rem ab velit ipsam iste aliquid? Eligendi totam nulla expedita.',
+    disc: 'A responsive inventory management system featuring full CRUD (Create, Read, Update, Delete) capabilities built with vanilla web technologies. The application allows users to seamlessly add, modify, view, and remove product entries within a structured data table. A key highlight is the real-time search functionality that instantly filters inventory items by name, demonstrating strong proficiency in JavaScript DOM manipulation and client-side data management.',
     gitHub: 'https://github.com/HeBaMo7amed/CRUD',
     livedDemo: 'https://hebamo7amed.github.io/CRUD/'
   },
