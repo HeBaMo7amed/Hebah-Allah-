@@ -59,16 +59,17 @@
 }
 
 .card h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--section-title);
     margin-bottom: 1rem;
     line-height: 1.4;
+    font-weight: 600;
 }
 
 .card p {
-    font-size: .95rem;
+    font-size: .8rem;
     line-height: 1.8;
-    font-weight: 500;
+    font-weight: 380;
     color: var(--title);
 }
 
