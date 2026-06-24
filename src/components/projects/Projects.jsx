@@ -50,7 +50,7 @@ const portfolioData = [
     id: 5,
     image: MyRecipies,
     title: 'MyRecipies',
-    disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam rem ab velit ipsam iste aliquid? Eligendi totam nulla expedita.',
+    disc: 'This dynamic recipe web application leverages a free public API to fetch detailed culinary inspiration based on real-time user searches. Designed with vanilla HTML, CSS, and JavaScript, the platform automatically populates the interface with a selection of random recipes upon first-time use to spark immediate engagement and discovery, offering a clean, responsive layout for seamless browsing.',
     gitHub: 'https://github.com/HeBaMo7amed/My-Recipies',
     livedDemo: 'https://hebamo7amed.github.io/My-Recipies/'
   },
