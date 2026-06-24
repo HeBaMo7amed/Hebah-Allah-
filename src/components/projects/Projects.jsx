@@ -82,7 +82,7 @@ const portfolioData = [
     id: 9,
     image: BookMark,
     title: 'BookMark',
-    disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam rem ab velit ipsam iste aliquid? Eligendi totam nulla expedita.',
+    disc: 'A practical web application designed to replicate core browser bookmarking functionalities, enabling users to efficiently save, manage, and retrieve their favorite websites. Built entirely with vanilla HTML, CSS, and JavaScript, the project features a clean, intuitive user interface equipped with a dynamic, real-time search mechanism to filter through saved links instantly. This application highlights a strong command of foundational web technologies, showcasing proficiency in DOM manipulation, form validation, client-side data handling, and the ability to craft seamless, user-centric tools without relying on external frameworks.',
     gitHub: 'https://github.com/HeBaMo7amed/Book-Mark',
     livedDemo: 'https://hebamo7amed.github.io/Book-Mark/'
   },
@@ -94,22 +94,7 @@ const portfolioData = [
     gitHub: 'https://github.com/HeBaMo7amed/CRUD',
     livedDemo: 'https://hebamo7amed.github.io/CRUD/'
   },
-  {
-    id: 11,
-    image: Slider,
-    title: 'Pharaonic Egypt ',
-    disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam rem ab velit ipsam iste aliquid? Eligendi totam nulla expedita.',
-    gitHub: 'https://github.com/HeBaMo7amed/slider',
-    livedDemo: 'https://hebamo7amed.github.io/slider/'
-  },
-  {
-    id: 12,
-    image: quotes,
-    title: 'quotes',
-    disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam rem ab velit ipsam iste aliquid? Eligendi totam nulla expedita.',
-    gitHub: 'https://github.com/HeBaMo7amed/Random-quotes',
-    livedDemo: 'https://hebamo7amed.github.io/Random-quotes/'
-  },]
+]
 const Projects = () => {
   const containerRef = useRef(null);
   const cardRefs = useRef([]);
