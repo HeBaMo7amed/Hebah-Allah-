@@ -6,7 +6,7 @@ import Skills from './components/skills/Skills'
 import Services from './components/services/Services'
 import Projects from './components/projects/Projects'
 import Footer from './components/footer/Footer'
-
+import { Analytics } from "@vercel/analytics/next"
 function App() {
 
   return (
@@ -19,6 +19,7 @@ function App() {
     <Projects />
     <Contact />
     <Footer/>
+    <Analytics />
     </>
 
   )
