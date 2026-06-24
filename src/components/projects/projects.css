@@ -33,6 +33,7 @@
     opacity: .5;
     filter: blur(1px);
     z-index: 1;
+   
 }
 
 .portfolio_item.active {
@@ -203,7 +204,7 @@
 /* RESPONSIVE */
 @media (max-width: 992px) {
     .projects_container {
-        padding: 40px 60px;
+        padding: 70px 60px;
     }
 
     .portfolio_item {
