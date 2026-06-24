@@ -58,7 +58,7 @@ const portfolioData = [
     id: 6,
     image: Login,
     title: 'Smart Login System',
-    disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam rem ab velit ipsam iste aliquid? Eligendi totam nulla expedita.',
+    disc: 'A robust and visually engaging authentication interface built with vanilla web technologies, featuring seamless page transitions and smooth animations. The system provides a complete login and registration flow, implementing comprehensive client-side form validation to handle various edge cases effectively. By managing successful authentication states and delivering clear user feedback, this project demonstrates a strong understanding of DOM manipulation, secure input handling, and user-centric UI design.',
     gitHub: 'https://github.com/HeBaMo7amed/Smart-Login-System',
     livedDemo: 'https://hebamo7amed.github.io/Smart-Login-System/'
   },
