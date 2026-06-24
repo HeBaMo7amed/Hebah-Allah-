@@ -23,7 +23,7 @@
     transform: rotate(0deg);
 }
 .about_content p{
-    margin:5rem 0 2.6rem;
+    margin:1rem 0 1rem;
     color: var(--title);
 }
 /* Responsive */
@@ -38,7 +38,7 @@
         aspect-ratio: 1/0.7;
     }
     .about_content p{
-        margin: 1rem 0 1.5rem;
+        margin: 1rem 0 1rem;
     }
 }
 @media (max-width: 600px){
@@ -51,6 +51,6 @@
     text-align: center;
   }
     .about_content p{
-        margin: 1.5rem 0;
+        margin: 1rem 0;
     }
 }
