@@ -18,7 +18,7 @@ const portfolioData = [
     id: 1,
     image: pharogate,
     title: 'pharogate',
-    disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam rem ab velit ipsam iste aliquid? Eligendi totam nulla expedita.',
+    disc: 'Pharogate is an immersive web platform dedicated to Ancient Egyptian history and heritage tourism. Built with modern frontend technologies, it offers travelers a seamless way to explore available tours, read reviews, and secure tickets. The application serves as a comprehensive hub for history enthusiasts, featuring dynamic sections for browsing travel itineraries, managing ticket purchases, and navigating a detailed FAQ module. By utilizing Tailwind CSS, the platform ensures a mobile-first, highly responsive design with a clean and modern user interface. Under the hood, the integration of React and Vite guarantees lightning-fast load times and optimized performance, delivering an engaging and accessible experience for users planning their journey through Ancient Egypt.',
     gitHub: 'https://github.com/HeBaMo7amed/pharogate',
     livedDemo: 'https://pharogate.vercel.app'
   },
