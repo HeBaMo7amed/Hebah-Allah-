@@ -18,7 +18,7 @@ const portfolioData = [
     id: 1,
     image: pharogate,
     title: 'pharogate',
-    disc: 'Pharogate is an immersive web platform dedicated to Ancient Egyptian history and heritage tourism. Built with modern frontend technologies, it offers travelers a seamless way to explore available tours, read reviews, and secure tickets. The application serves as a comprehensive hub for history enthusiasts, featuring dynamic sections for browsing travel itineraries, managing ticket purchases, and navigating a detailed FAQ module. By utilizing Tailwind CSS, the platform ensures a mobile-first, highly responsive design with a clean and modern user interface. Under the hood, the integration of React and Vite guarantees lightning-fast load times and optimized performance, delivering an engaging and accessible experience for users planning their journey through Ancient Egypt.',
+    disc: 'Pharogate is a high-performance, responsive web platform designed for Ancient Egyptian heritage tourism. Built with React, Vite, and Tailwind CSS, it provides history enthusiasts with a seamless, mobile-first experience to explore tour itineraries, read reviews, manage ticket purchases, and access FAQs through a clean and engaging interface.',
     gitHub: 'https://github.com/HeBaMo7amed/pharogate',
     livedDemo: 'https://pharogate.vercel.app'
   },
@@ -74,7 +74,7 @@ const portfolioData = [
     id: 8,
     image: Bekary,
     title: 'Bakery',
-    disc: 'A fully responsive and visually engaging website designed for a bakery business. Built with semantic HTML5 and modern CSS3, the project leverages Bootstrap to ensure a fluid grid system and optimal cross-device compatibility. Custom media queries were implemented to refine the layout for various screen sizes, delivering a seamless and accessible user experience. This project demonstrates a solid command of core front-end technologies and the ability to build clean, maintainable, and user-centric web interfaces.',
+    disc: 'Bakery is a visually engaging and fully responsive website tailored for a bakery business. Built with semantic HTML5, CSS3, and Bootstrap, it utilizes a fluid grid system and custom media queries to ensure seamless cross-device compatibility. This project highlights a strong foundation in core front-end technologies, delivering a clean, maintainable, and highly accessible user experience.',
     gitHub: 'https://github.com/HeBaMo7amed/Bakery',
     livedDemo: 'https://hebamo7amed.github.io/Bakery/'
   },
