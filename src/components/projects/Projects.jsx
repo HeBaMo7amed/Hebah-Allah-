@@ -66,7 +66,7 @@ const portfolioData = [
     id: 7,
     image: RaFBoOks,
     title: 'RaFBoOks',
-    disc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam rem ab velit ipsam iste aliquid? Eligendi totam nulla expedita.',
+    disc: 'A visually distinct digital library web application built with vanilla frontend technologies. The project focuses on delivering an engaging user interface, highlighted by a unique, nature-inspired color palette modeled after tree tones to create a calming and immersive reading browsing experience. By utilizing HTML, CSS, and JavaScript, the platform provides an intuitive layout for exploring book collections, demonstrating a strong eye for aesthetic web design and foundational DOM manipulation skills.',
     gitHub: 'https://github.com/HeBaMo7amed/RaF-BoOks',
     livedDemo: 'https://hebamo7amed.github.io/RaF-BoOks/'
   },
