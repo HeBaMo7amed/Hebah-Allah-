@@ -1,6 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -55,8 +53,11 @@ body {
   line-height: 1.7;
   position: relative;
   overflow-x: hidden;
-}
 
+}
+::-webkit-scrollbar{
+  display: none;
+}
 
 body::before {
   content: "";
@@ -127,7 +128,7 @@ h4,
 h5,
 h6 {
   font-weight: 500;
-  font-size: 2.2rem;
+  font-size: 2rem;
   color: var(--section-title);
 
 }
