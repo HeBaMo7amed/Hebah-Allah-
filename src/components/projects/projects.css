@@ -172,6 +172,7 @@
     color: var(--title);
     line-height: 1.7;
     margin-bottom: 10px;
+    min-height: 80px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
