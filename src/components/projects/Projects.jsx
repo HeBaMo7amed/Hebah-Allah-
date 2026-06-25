@@ -156,6 +156,7 @@ const Projects = () => {
       requestAnimationFrame(() => {
         const index = getCenterIndex();
         setActiveIndex(index);
+        setOpenIndex(index);
         ticking = false;
       });
     };
