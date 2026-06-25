@@ -86,7 +86,7 @@ const Skills = () => {
       </div>
       <div className="container container_skills">
         {skillsData.map(({ id, image, title }) =>
-          <article className='card_skill'>
+          <article  key={id} className='card_skill'>
             <div className="icon">
               <img src={image} alt="" />
             </div>
